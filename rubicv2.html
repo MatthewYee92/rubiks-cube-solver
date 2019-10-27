@@ -1,0 +1,64 @@
+<html>
+        <head>
+                <title>Simple 3x3x3 Rubic' Cube Solver</title>
+                <meta charset="UTF-8">
+                <link rel="stylesheet" type="text/css" href="rubic_cube.css">
+        </head>
+        <body onresize="fitter();">
+            <div class="backplain fixer vertical"></div>
+            <div class="backplain fixer horizontal"></div>
+            <div id="cube" class="backplain">
+                <div class="surface"></div>
+                <div class="surface"></div>
+                <div class="surface arrow up" onclick="turn_cube_axis_x(1);"></div>
+                <div class="surface"></div>
+                <div class="surface"></div>
+                <div class="surface"></div>
+                <div class="surface pad">
+                        <div class="color_pad">
+                        </div>
+                </div>
+                <div class="surface pad">
+                        <div class="color_pad"></div>
+                </div>
+                <div class="surface pad">
+                        <div class="color_pad"></div>
+                </div>
+                <div class="surface"></div>
+                <div class="surface arrow left" onclick="turn_cube_axis_y(1);"></div>
+                <div class="surface pad">
+                        <div class="color_pad"></div>
+                </div>
+                <div class="surface pad">
+                        <div class="color_pad"></div>
+                </div>
+                <div class="surface pad">
+                        <div class="color_pad"></div>
+                </div>
+                <div class="surface arrow right" onclick="turn_cube_axis_y(0);"></div>
+                <div class="surface"></div>
+                <div class="surface pad">
+                        <div class="color_pad"></div>
+                </div>
+                <div class="surface pad">
+                        <div class="color_pad"></div>
+                </div>
+                <div class="surface pad">
+                        <div class="color_pad"></div>
+                </div>
+                <div class="surface"></div>
+                <div class="surface"></div>
+                <div class="surface"></div>
+                <div class="surface arrow down" onclick="turn_cube_axis_x(0);"></div>
+                <div class="surface"></div>
+                <div class="surface"></div>
+            </div>
+            <div class="backplain fixer horizontal"></div>
+            <div class="backplain fixer vertical"></div>
+        </body>
+    </head>
+</html>
+<script src="./rubic_cube_attributes.js"></script>
+<script src="./rubic_cube_moves.js"></script>
+<script src="./rubic_cube_set_color.js"></script>
+<script src="./rubic_cube_init.js"></script>

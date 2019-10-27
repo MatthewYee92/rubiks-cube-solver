@@ -1,2 +1,3 @@
-# rubiks-cube-solver
-solve any cube ! 
+# Rubiks cube solver in 2D! 
+
+Todo: Make 3D via WebGL

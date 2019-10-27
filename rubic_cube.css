@@ -1,0 +1,51 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.backplain{
+    background: white;
+    float: left;
+}
+
+.surface{
+    height:20%;
+    width:20%;
+    float:left;
+}
+
+.pad{
+    border-radius: 20%;
+    background: black;
+}
+
+.color_pad{
+    height:90%;
+    width: 90%;
+    border-radius: 20%;
+    float:left;
+    margin: 5%;
+    overflow: hidden;
+}
+
+.arrow{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.left{
+    background-image: url('left_arrow.png');
+}
+
+.right{
+    background-image: url('right_arrow.png');
+}
+
+.up{
+    background-image: url('up_arrow.png');
+}
+
+.down{
+    background-image: url('down_arrow.png');
+}
